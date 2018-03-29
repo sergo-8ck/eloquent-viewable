@@ -15,3 +15,5 @@ excerpt: "Minimal Mistakes is a flexible two-column Jekyll theme."
 # last_modified_at: 2018-03-20T16:00:39-04:00
 toc: true
 ---
+
+Laravel Page View Counter is a powerful, flexible and easy to use Laravel package for adding a page view counter to your Eloquent models. It's designed to be flexible and useful for various projects. Instead of only a simple page view counter, we provide out of the box some great functionalities.
