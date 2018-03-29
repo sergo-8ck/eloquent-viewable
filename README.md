@@ -1,1 +1,0 @@
-# Eloquent Viewable GitHub Pages
