@@ -12,7 +12,7 @@ main:
   #   url: /sitemap/
 
 docs:
-  - title: Getting Started
+  - title: "Getting Started"
     children:
       - title: "Introduction"
         url: /docs/introduction/
@@ -24,3 +24,13 @@ docs:
         url: /docs/upgrading/
       - title: "Changelog"
         url: /docs/changelog/
+  - title: "Usage"
+    children:
+      - title: "Preparing your models"
+        url: /docs/preparing-your-models/
+      - title: "Saving views"
+        url: /docs/saving-views/
+      - title: "Retrieving views counts"
+        url: /docs/retrieving-views-counts/
+      - title: "Order models by views count"
+        url: /docs/order-models-by-views-count/
