@@ -1,5 +1,5 @@
 ---
-title: "Home"
+title: "Introduction"
 permalink: /
 excerpt: "Simple package for adding a page view counter to your viewable Eloquent models"
 # last_modified_at: 2018-03-20T15:58:49-04:00
@@ -20,3 +20,7 @@ Here are some of the main features:
 * Get the total number (unique) views upto a specific date
 * Cache the retrieved views counts
 * Queue the views before saving them in the database to prevent slow requests
+
+## Documentation
+
+Read the [documentation]({{ site.baseurl }}{% link /docs/getting-started %}) for more information!
