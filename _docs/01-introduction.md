@@ -6,11 +6,12 @@ last_modified_at: 2018-03-20T15:58:49-04:00
 toc: true
 ---
 
-Eloquent Viewable is a Laravel >= 5.5 package to add a view counter to your Eloquent models.
+Eloquent Viewable is a Laravel >= 5.5 package that can associate views with Eloquent models.
 
 Here are some quick code examples:
 
 ```php
+// First get a Viewable Post
 $post = Post::find(1);
 
 // Store a new view in the database
@@ -24,7 +25,7 @@ $post->getViewsUpto(Carbon::parse('2013-05-21 00:00:00'));
 $post->getViewsBetween(Carbon::parse('2014-00-00 00:00:00'), Carbon::parse('2016-00-00 00:00:00'));
 ```
 
-It can also return the unique views!
+It can also return the nuber unique views!
 
 ```php
 $post->getUniqueViews();
@@ -52,6 +53,14 @@ $post->getViewsOfSubDays(5);
 $post->getViewsOfSubWeeks(5);
 $post->getViewsOfSubMonths(5);
 $post->getViewsOfSubYears(5);
+```
+
+Need to order your viewable models? Use this simple scope:
+
+```php
+$posts = Post::orderByViewsCount(); // default: descending
+
+$posts = Post::orderByViewsCount('asc'); // ascending
 ```
 
 ---
