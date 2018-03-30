@@ -1,8 +1,7 @@
 ---
 title: "Introduction"
 permalink: /docs/introduction/
-excerpt: "How to quickly install and setup Minimal Mistakes for use with GitHub Pages."
-last_modified_at: 2018-03-20T15:58:49-04:00
+last_modified_at: 2018-03-30T15:10:56-00:00
 toc: false
 ---
 
