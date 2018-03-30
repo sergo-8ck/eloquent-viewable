@@ -3,7 +3,7 @@ title: "Introduction"
 permalink: /docs/introduction/
 excerpt: "How to quickly install and setup Minimal Mistakes for use with GitHub Pages."
 last_modified_at: 2018-03-20T15:58:49-04:00
-toc: true
+toc: false
 ---
 
 Eloquent Viewable is a Laravel >= 5.5 package that can associate views with Eloquent models.
