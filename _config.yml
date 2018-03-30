@@ -21,7 +21,7 @@ title_separator          : "-"
 name                     : "Cyril de Wit"
 description              : "Simple package for adding a page view counter to your viewable Eloquent models"
 url                      : "https://cyrildewit.github.io/laravel-page-view-counter/"
-baseurl                  : "/laravel-page-view-counter"
+baseurl                  : # "/laravel-page-view-counter"
 repository               : "cyrildewit/laravel-page-view-counter"
 # teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 breadcrumbs            : false # true, false (default)
