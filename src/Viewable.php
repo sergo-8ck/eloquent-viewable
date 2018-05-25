@@ -73,9 +73,15 @@ trait Viewable
      *
      * @return bool
      */
-    public function addView(): bool
+    public function addView(DataTime $expiryDateTime = null): bool
     {
-        return app(ViewableService::class)->addViewTo($this);
+        $viewableService = app(ViewableService::class);
+
+        if ($expiryDateTime) {
+            $viewableService->addViewWithExpiryDateTo($this, $expiryDateTimes)
+        }
+
+        return $viewableService->addViewTo($this);
     }
 
     /**

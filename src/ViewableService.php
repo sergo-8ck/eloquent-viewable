@@ -219,6 +219,11 @@ class ViewableService implements ViewableServiceContract
         return true;
     }
 
+    public function addViewWithExpiryDateTo($viewable, $expiryDate)
+    {
+        // $viewable
+    }
+
     /**
      * Remove all views from a viewable model.
      *
